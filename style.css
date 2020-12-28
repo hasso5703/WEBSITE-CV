@@ -1,0 +1,52 @@
+body, html
+{
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+
+}
+
+#container 
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#blocdegauche
+{
+	background-color: #005a87;
+	width: 35%;
+	color: white;
+	flex-basis: 35%;
+	text-align: center;
+}
+
+#divimg img
+{
+	border-radius: 50%;
+}
+
+#blocdedroite 
+{
+	background-color: #fff;
+	width: 65%;
+	flex-basis: 65%;
+}
+
+@media screen and (max-width: 1080px)
+{
+	#blocdegauche
+	{
+		flex-basis: 100%;
+	}
+
+	#blocdedroite
+	{
+		flex-basis: 100%;
+	}
+
+
+
+}
