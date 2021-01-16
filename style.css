@@ -11,10 +11,90 @@ html, body
 body {
         margin-top: 0;
         margin-bottom: 0px;
-        height: 1920px;
-        width: 1080px;
+        height: 80%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
+        background-color: #fff5ee;
+}
+
+
+
+
+#container 
+{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+#blocdegauche
+{
+	background-color: #005a87;
+	width: 35%;
+	color: white;
+	flex-basis: 35%;
+	text-align: center;
+}
+
+#divimg img
+{
+	border-radius: 50%;
+}
+
+#blocdedroite 
+{
+	background-color: #fff;
+	width: 65%;
+	flex-basis: 65%;
+	
+}
+
+
+#blocdedroite div
+{
+	padding: 10px;
+	margin: 15px;
+	box-shadow: 1px 1px 6px black;
+	background-color: #FFFAFA;
+
+}
+
+#blocdedroite #un
+{
+	margin-top: 10px;
+	padding-top: 1px;
+	text-align: center;
+
+}
+
+@media screen and (max-width: 1200px)
+{
+	#blocdegauche
+	{
+		flex-basis: 100%;
+	}
+
+	#blocdedroite
+	{
+		flex-basis: 100%;
+	}
+
+
+}
+
+
+#blocdedroite #deux #trois #quatre #cinq {
+	padding-top: 1px;
+}
+
+
+
+footer
+{
+	background-color: grey;
+	text-align: center;
+}
     }
 
 
@@ -45,6 +125,7 @@ body {
 	background-color: #fff;
 	width: 65%;
 	flex-basis: 65%;
+	
 }
 
 @media screen and (max-width: 1200px)
