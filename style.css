@@ -20,7 +20,7 @@ html, body
 {
 	background-color: #005a87;
 	width: 35%;
-	color: white;
+	color: red;
 	flex-basis: 35%;
 	
 }
@@ -48,7 +48,11 @@ html, body
 	{
 		flex-basis: 100%;
 	}
-
+	#divimg img
+	{
+		width: 50%;
+		height: 50%;
+	}
 
 
 }
