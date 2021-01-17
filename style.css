@@ -3,12 +3,10 @@ html, body
 	line-height: 1.8;
 	font-family: arial, sans-serif;
 	overflow-x:hidden;
-
 }
 
-
-
-body {
+body 
+{
         margin-top: 0;
         margin-bottom: 0px;
         margin-left: auto;
@@ -16,14 +14,30 @@ body {
         background-color: #fff5ee;
 }
 
+@media screen and (max-width: 1200px)
+{
+	#blocdegauche
+	{
+		flex-basis: 100%;
+	}
 
+	#blocdedroite
+	{
+		flex-basis: 100%;
+	}
 
+	#divimg
+	{
+		width: 75%;
+		height: 75%;
+	}
 
-#container 
+}
+
+#containergeneral 
 {
 	display: flex;
 	flex-wrap: wrap;
-	
 }
 
 #blocdegauche
@@ -32,10 +46,10 @@ body {
 	width: 35%;
 	color: white;
 	flex-basis: 35%;
-	text-align: center;
+	
 }
 
-#divimg img
+#blocdegauche #divimg img
 {
 	border-radius: 50%;
 }
@@ -47,7 +61,6 @@ body {
 	flex-basis: 65%;
 	
 }
-
 
 #blocdedroite div
 {
@@ -55,7 +68,6 @@ body {
 	margin: 15px;
 	box-shadow: 1px 1px 6px black;
 	background-color: #FFFAFA;
-
 }
 
 #blocdedroite #un
@@ -63,24 +75,7 @@ body {
 	margin-top: 10px;
 	padding-top: 1px;
 	text-align: center;
-
 }
-
-@media screen and (max-width: 1200px)
-{
-	#blocdegauche
-	{
-		flex-basis: 100%;
-	}
-
-	#blocdedroite
-	{
-		flex-basis: 100%;
-	}
-
-
-}
-
 
 #blocdedroite #deux #trois #quatre #cinq {
 	padding-top: 1px;
@@ -88,57 +83,59 @@ body {
 
 
 
-footer
+#divnom 
 {
-	background-color: grey;
-	text-align: center;
+	
+	padding-left: 10%;
+
 }
-    }
 
+#divimg
+{
+	
+	text-align: center;
+	padding: 20px;
+}
+#divcontact
+{
+	
+	padding-left: 10%;
+	list-style-type: none;
+}
 
+#divcontact ul 
+{
+	list-style-type: none;
+}
 
-#container 
+.contain
 {
 	display: flex;
-	flex-wrap: wrap;
-	
 }
 
-#blocdegauche
+.texte ul li
 {
-	background-color: #005a87;
-	width: 35%;
-	color: white;
-	flex-basis: 35%;
-	text-align: center;
+	padding-bottom: 45px;
 }
 
-#divimg img
+.texte 
 {
-	border-radius: 50%;
+	margin-top: 20px;
 }
 
-#blocdedroite 
+#divformation
 {
-	background-color: #fff;
-	width: 65%;
-	flex-basis: 65%;
-	
+	padding-left: 10%;
 }
 
-@media screen and (max-width: 1200px)
+#divlangues
 {
-	#blocdegauche
-	{
-		flex-basis: 100%;
-	}
+	padding-left: 10%;
+}
 
-	#blocdedroite
-	{
-		flex-basis: 100%;
-	}
-
-
+#divlangues ul
+{
+	list-style-type: none;
 }
 
 footer
