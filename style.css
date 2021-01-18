@@ -40,7 +40,7 @@ html, body
 	flex-basis: 65%;
 }
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 1200px)
 {
 	#blocdegauche
 	{
