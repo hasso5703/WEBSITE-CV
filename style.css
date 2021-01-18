@@ -7,6 +7,7 @@ html, body
 	width: 100%;
 	overflow-x: hidden;
 
+
 }
 
 #container 
@@ -20,14 +21,16 @@ html, body
 {
 	background-color: #005a87;
 	width: 35%;
-	color: red;
+	color: white;
 	flex-basis: 35%;
+
 	
 }
 
 #divimg img
 {
 	border-radius: 50%;
+	
 }
 
 #blocdedroite 
@@ -37,41 +40,74 @@ html, body
 	flex-basis: 65%;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 640px)
 {
 	#blocdegauche
 	{
 		flex-basis: 100%;
+
+	
 	}
 
 	#blocdedroite
 	{
 		flex-basis: 100%;
 	}
-	#divimg img
-	{
-		width: 50%;
-		height: 50%;
+
+
+  	* {
+		box-sizing: border-box;
 	}
+	
+
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+
+	img {
+		height: auto;
+		max-width: 100%;
+	}
+
+
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+
 
 
 }
 
+
+
+
 body 
 {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #fff5ee;
+        background-color: lightgrey;
+        width: 80%;
+        box-shadow: 3px 3px 10px grey;
+
+
 }
 
 #blocdedroite div
 {
 	padding: 10px;
 	margin: 15px;
-	box-shadow: 1px 1px 6px black;
+	box-shadow: 1px 1px 10px grey;
 	background-color: #FFFAFA;
+	border-radius: 10px;
 }
 
 #blocdedroite #un
@@ -90,6 +126,7 @@ body
 	
 	text-align: center;
 	padding: 20px;
+
 }
 
 #divcontact
@@ -97,15 +134,18 @@ body
 
 	padding: 20px;
 	list-style-type: none;
+
 }
 #divcontact ul 
 {
 	list-style-type: none;
+	max-width: 100%;
 }
 
 #divnom
 {
 	padding: 20px;
+	
 }
 
 #divformation
@@ -121,6 +161,7 @@ body
 .contain
 {
 	display: flex;
+
 }
 .texte ul li
 {
@@ -136,9 +177,18 @@ footer
 {
 	background-color: lightblue;
 	text-align: center;
+	width: 100%;
 }
 
 #divimg, #divnom, #divcontact, #divformation
 {
 	border-bottom: 2px solid lightblue;
+}
+
+.liste .icone li {
+	padding-bottom: 20px;
+}
+
+*{
+	max-width: 100%;
 }
