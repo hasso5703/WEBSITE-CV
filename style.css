@@ -40,7 +40,7 @@ html, body
 	flex-basis: 65%;
 }
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 640px)
 {
 	#blocdegauche
 	{
@@ -134,31 +134,34 @@ body
 
 	padding: 20px;
 	list-style-type: none;
+	position: initial;
+	padding-left: 40px;
 
 }
 #divcontact ul 
 {
-	list-style-type: none;
 	max-width: 100%;
 }
 
 #divnom
 {
 	padding: 20px;
-	
+	padding-left: 40px;
 }
 
 #divformation
 {
 	padding: 20px;
+	padding-left: 40px;
 }
 
 #divlangues
 {
 	padding: 20px;
+	padding-left: 40px;
 }
 
-.contain
+.liste
 {
 	display: flex;
 
@@ -185,10 +188,95 @@ footer
 	border-bottom: 2px solid lightblue;
 }
 
-.liste .icone li {
-	padding-bottom: 20px;
-}
+
 
 *{
 	max-width: 100%;
+}
+
+#dflex
+{
+	display: flex;
+}
+
+#dflex ul 
+{
+	padding-right: 20px;
+
+}
+
+
+.liste ul li img {
+
+
+	width: 60px;
+}
+
+.liste ul li img:hover
+{
+	width: 75px;
+}
+
+#divimg img:hover
+{
+	width: 100%;
+}
+.liste ul {
+	
+	padding: 10px;
+
+}
+
+.liste li {
+	padding-bottom: 20px;
+}
+
+
+.liste .ultexte li{
+	
+	margin-top: 20px;
+}
+
+.liste .ultexte .deux
+{
+	padding-top: 15px;
+}
+
+.liste .ultexte .trois
+{
+	padding-top: 20px;
+}
+
+.liste .ultexte .quatre
+{
+	padding-top: 25px;
+}
+
+.liste {
+	font-size: 1em;
+
+}
+
+.ultexte, .icone{
+	list-style-type: none;
+}
+
+#divlangues ul {
+	padding: 10px;
+}
+
+#divlangues ul li img {
+	position: center;
+}
+
+#divlangues span{
+	padding-left: 10px;
+}
+
+.decaler {
+	padding-left: 30px;
+}
+
+.blue {
+	color: lightblue;
 }
